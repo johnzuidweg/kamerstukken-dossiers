@@ -129,7 +129,8 @@ class Dossier:
             html = """
                 <!DOCTYPE html>
                 <html>
-                <head>"""
+                <head>
+                <meta charset="UTF-8">"""
             html += f"<title>{self.nr}</title>"
             html += """
                     <style>
